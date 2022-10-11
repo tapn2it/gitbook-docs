@@ -7,7 +7,7 @@
   * [Installing your GitHub repositories](render.com/installing-your-github-repositories.md)
   * [Sign Up](render.com/sign-up.md)
   * [‼ Troubleshooting](render.com/troubleshooting.md)
-* [🧑🤝🧑 🧑🤝🧑 Walkthrough Projects](walkthrough-projects/README.md)
+* [🧑🤝🧑 Walkthrough Projects](walkthrough-projects/README.md)
   * [📝 I Think Therefore I Blog : Deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/README.md)
     * [I Think Therefore I Blog : Web service creation](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-web-service-creation.md)
     * [I Think Therefore I Blog : Settings](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-settings.md)
