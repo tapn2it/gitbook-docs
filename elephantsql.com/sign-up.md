@@ -21,7 +21,7 @@ Follow these steps to create an account on ElephantSQL to allow the instantiatio
    * Select Yes for GDPR
    * Provide your email address
    * Click "**Create Team**"\
-     ![create new team form with inputs](../.gitbook/assets/create-team.png)\
+     ![create new team form with inputs](broken-reference)\
 
 5. Your account is successfully created!\
    ![an elephantsql dashboard with no database instances](../.gitbook/assets/created.png)

@@ -12,12 +12,10 @@ A web service allows a full stack application to be deployed. Connecting it to a
 
 1. Click "**New +**"\
    \
-   ![new button](<../../.gitbook/assets/new.png>)\
-
+   ![new button](broken-reference)
 2. Click "**Web Service**"\
    \
-   ![web service menu item highlighted](../../.gitbook/assets/web-service.png)\
-
+   ![web service menu item highlighted](../../.gitbook/assets/web-service.png)
 3. Search for relevant repo and click "**Connect**"\
    \
    ![a text input and search results](../../.gitbook/assets/connect.png)

@@ -46,7 +46,7 @@ This is the executable command that is run once the build has completed. `node` 
 
 1\. Add a **Name**
 
-![name setting with a meaningful name in the input](../../.gitbook/assets/name.png)
+<figure><img src="../../.gitbook/assets/name.png" alt="name setting with a meaningful name in the input"><figcaption></figcaption></figure>
 
 2\. Ensure the following settings match
 
