@@ -14,4 +14,8 @@
     * [I Think Therefore I Blog : Environment variables](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-environment-variables.md)
     * [I Think Therefore I Blog : Auto-Deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-auto-deployment.md)
     * [I Think Therefore I Blog : Build & deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-build-and-deployment.md)
-* [⤵Migrations](migrations/README.md)
+* [:arrow_heading_down: Migrations](migrations/README.md)
+  * [Python Essentials / PP3](migrations/pp3/README.md)
+    * [Python Essentials / PP3 : Web service creation](migrations/pp3/pp3-web-service.md)
+    * [Python Essentials / PP3 : Settings](migrations/pp3/pp3-settings.md)
+
