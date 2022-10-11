@@ -12,7 +12,7 @@ A web service allows a full stack application to be deployed. Connecting it to a
 
 1. Click "**New +**"\
    \
-   ![new button](<../../.gitbook/assets/new (1).png>)\
+   ![new button](<../../.gitbook/assets/new.png>)\
 
 2. Click "**Web Service**"\
    \
