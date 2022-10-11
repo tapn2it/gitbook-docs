@@ -4,7 +4,7 @@ description: >-
   connect to a repository.
 ---
 
-# I Think Therefore I Blog : Web Service creation
+# Python Essentials : Web Service creation
 
 A web service allows a full stack application to be deployed. Connecting it to a repository on GitHub allows the repo to be built and deployed on Render's hosting platform.
 
@@ -12,7 +12,7 @@ A web service allows a full stack application to be deployed. Connecting it to a
 
 1. Click "**New +**"\
    \
-   ![](<../../.gitbook/assets/new (1).png>)\
+   ![](<../../.gitbook/assets/new.png>)\
    \
 
 2. Click "**Web Service**"\

@@ -4,7 +4,7 @@ description: >-
   configuration settings are required.
 ---
 
-# I Think Therefore I Blog : Settings
+# Python Essentials : Settings
 
 A brief explanation of each setting is given below.
 
@@ -34,57 +34,51 @@ The branch that the service should be deployed from. This will often be `main` (
 
 #### Build Command
 
-This is the command that is executed when the deployment build is initiated. The command instructs the build to run the **build.sh** file from the current working directory.
+This is the command that is executed when the deployment build is initiated. The command instructs the build to install the pip packages from the requirements.txt file and to install all Node dependencies listed in the package.json file within the repository.
 
-An alternative file name could be given as long as the relevant file exists, but **build.sh** is a fairly conventional name.
+The Node dependencies may be unfamiliar to you but they are used to comprise the pseudo-terminal and allow a terminal-based Python project to operate within a browser environment. The template used for this project had all the necessary Node configuration pre-populated for you.
 
 #### Start Command
 
-This is the executable command that is run within a python terminal. `gunicorn` is an installed package, it then runs the **wsgi** file within the directory given. `:application` allows the `application` variable to be called upon.
+This is the executable command that is run once the build has completed. `node` indicates the runtime environment to run the command in, in this case Node.js. The succeeding `index.js` indicates the name of the file to be run within Node.
 
 ### Process
 
 1\. Add a **Name**
 
-<figure><img src="../../.gitbook/assets/name.png" alt="name setting with a meaningful name in the input"><figcaption></figcaption></figure>
+![name setting with a meaningful name in the input](../../.gitbook/assets/name.png)
+
 
 2\. Ensure the following settings match
 
-| Setting Name   | Value                                                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Root Directory | \*\*blank\*\*                                                                                                                         |
-| Environment    | **Python 3**                                                                                                                          |
+| Setting Name   | Value |
+| -------------- | ----- |
+| Root Directory | \*\*blank\*\* |
+| Environment    | **Python 3** |
 | Region         | <p><strong>Frankfurt (EU Central)</strong><br><br><em>For those outside of Europe, a more localized region may be preferred.</em></p> |
-| Branch         | <p><strong>main</strong><br><br><em>You can deploy from a different branch if required.</em></p>                                      |
-
+| Branch         | <p><strong>main</strong><br><br><em>You can deploy from a different branch if required.</em></p> |
 
 
 3\. Set the **Build Command**
 
-<figure><img src="../../.gitbook/assets/build-command.png" alt="build command setting with dot forward slash build dot s h in the input"><figcaption></figcaption></figure>
+![build command setting with pip install -r requirements.txt && npm install in the input](../../.gitbook/assets/pp3/build.png)
 
 ```shell
-./build.sh
+pip install -r requirements.txt && npm install
 ```
 
 {% hint style="info" %}
-Using `./` before a file name in the command line is a common way to execute the file.
+Using `&&` in a terminal command means that anything following the `&&` will only be performed on a successful execution of the previous command.
 {% endhint %}
-
 
 
 4\. Set the **Start Command**
 
-<figure><img src="../../.gitbook/assets/start-command.png" alt="start command setting with a value of gunicorn codestar dot w s g i colon application"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pp3/start.png" alt="start command setting with a value of node index.js"><figcaption></figcaption></figure>
 
+```shell
+node index.js
 ```
-gunicorn codestar.wsgi:application
-```
-
-{% hint style="warning" %}
-Replace `codestar` with the directory name of your project. This name would have been generated via `django-admin startproject <PROJECT_NAME>` when the project repository was created.
-{% endhint %}
-
 
 
 5\. Ensure the **Free** plan $0/month is selected.
