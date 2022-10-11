@@ -11,10 +11,10 @@ A series of walkthroughs for the various projects completed with Code Institute.
 
 ### :people\_holding\_hands:Walkthrough Projects
 
-| Project                                               | Framework | Tech Stack                    |
-| ----------------------------------------------------- | --------- | ----------------------------- |
-| :pencil: [I Think Therefore I Blog](broken-reference) | Django    | Python, HTML, CSS, JavaScript |
-|                                                       |           |                               |
+| Project                                                                                                 | Framework | Tech Stack                    |
+| ------------------------------------------------------------------------------------------------------- | --------- | ----------------------------- |
+| :pencil: [I Think Therefore I Blog](walkthrough-projects/i-think-therefore-i-blog-deployment/README.md) | Django    | Python, HTML, CSS, JavaScript |
+|                                                                                                         |           |                               |
 
 ### :student:Personal Projects
 
@@ -27,6 +27,14 @@ Project numbers are guidelines only. You must refer to your assessment guideline
 | Django               | 4, 5              |         4         | Python, HTML, CSS, JavaScript |
 | Flask                | N/A               |         3         | Python, HTML, CSS, JavaScript |
 | Python mock terminal | 3                 |        N/A        |             Python            |
+
+### :arrow_heading_down:Migrating from Heroku
+
+| Framework            | Portfolio Project | Milestone Project |           Tech Stack          |
+| -------------------- | ----------------- | :---------------: | :---------------------------: |
+| Django               | 4, 5              |         4         | Python, HTML, CSS, JavaScript |
+| Flask                | N/A               |         3         | Python, HTML, CSS, JavaScript |
+| [Python Essentials](migrations/pp3/README.md) | 3                 |        N/A        |             Python            |
 
 ### :desktop:Render.com
 
