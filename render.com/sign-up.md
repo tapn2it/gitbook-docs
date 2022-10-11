@@ -13,7 +13,7 @@ Skip to [Installing your GitHub repositories](installing-your-github-repositorie
 1\. Visit [Render.com](https://render.com) and click "**Get Started**"\
 
 
-<figure><img src="../.gitbook/assets/render-dot-com.png" alt="render dot com&#x27;s home page"><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/render-dot-com (2).png" alt="render dot com&#x27;s home page"><figcaption><p><br></p></figcaption></figure>
 
 2\. Sign up for Render with **GitHub**\
 ****

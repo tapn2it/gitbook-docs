@@ -48,29 +48,28 @@ This is the executable command that is run once the build has completed. `node` 
 
 ![name setting with a meaningful name in the input](../../.gitbook/assets/name.png)
 
-
 2\. Ensure the following settings match
 
-| Setting Name   | Value |
-| -------------- | ----- |
-| Root Directory | \*\*blank\*\* |
-| Environment    | **Python 3** |
+| Setting Name   | Value                                                                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Root Directory | \*\*blank\*\*                                                                                                                         |
+| Environment    | **Python 3**                                                                                                                          |
 | Region         | <p><strong>Frankfurt (EU Central)</strong><br><br><em>For those outside of Europe, a more localized region may be preferred.</em></p> |
-| Branch         | <p><strong>main</strong><br><br><em>You can deploy from a different branch if required.</em></p> |
-
+| Branch         | <p><strong>main</strong><br><br><em>You can deploy from a different branch if required.</em></p>                                      |
 
 3\. Set the **Build Command**
 
-![build command setting with pip install -r requirements.txt && npm install in the input](../../.gitbook/assets/pp3/build.png)
+<figure><img src="../../.gitbook/assets/pp3/build.png" alt="build command setting with pip install -r requirements.txt &#x26;&#x26; npm install in the input"><figcaption></figcaption></figure>
 
+{% code overflow="wrap" %}
 ```shell
 pip install -r requirements.txt && npm install
 ```
+{% endcode %}
 
 {% hint style="info" %}
 Using `&&` in a terminal command means that anything following the `&&` will only be performed on a successful execution of the previous command.
 {% endhint %}
-
 
 4\. Set the **Start Command**
 
@@ -79,7 +78,6 @@ Using `&&` in a terminal command means that anything following the `&&` will onl
 ```shell
 node index.js
 ```
-
 
 5\. Ensure the **Free** plan $0/month is selected.
 
