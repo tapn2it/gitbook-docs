@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Code Institute Deployment Docs](README.md)
+* [🖥 Render.com](render.com/README.md)
+  * [Sign Up](render.com/sign-up.md)
+  * [Installing your GitHub repositories](render.com/installing-your-github-repositories.md)
+  * [‼ Troubleshooting](render.com/troubleshooting.md)
+* [🐘 ElephantSQL.com](elephantsql.com/README.md)
+  * [Sign Up](elephantsql.com/sign-up.md)
+* [🧑🤝🧑 Walkthrough Projects](walkthrough-projects/README.md)
+  * [📝 I Think Therefore I Blog : Deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/README.md)
+    * [I Think Therefore I Blog : Web service creation](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-web-service-creation.md)
+    * [I Think Therefore I Blog : Settings](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-settings.md)
+    * [I Think Therefore I Blog : Environment variables](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-environment-variables.md)
+    * [I Think Therefore I Blog : Auto-Deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-auto-deployment.md)
+    * [I Think Therefore I Blog : Build & deployment](walkthrough-projects/i-think-therefore-i-blog-deployment/i-think-therefore-i-blog-build-and-deployment.md)
