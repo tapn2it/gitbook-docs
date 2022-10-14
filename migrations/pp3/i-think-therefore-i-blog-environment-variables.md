@@ -47,7 +47,7 @@ This value is required for the Python mock terminal program - do not change it!
 
 
 {% hint style="info" %}
-If your project does not require a `creds.json` file, skip to the next page.
+If your project does not require a `creds.json` file, [skip to the next page](i-think-therefore-i-blog-auto-deployment.md).
 {% endhint %}
 
 
