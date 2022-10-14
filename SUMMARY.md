@@ -18,3 +18,6 @@
   * [Python Essentials (PP3) : Migration](migrations/pp3/README.md)
     * [Python Essentials : Web Service creation](migrations/pp3/pp3-web-service.md)
     * [Python Essentials : Settings](migrations/pp3/pp3-settings.md)
+    * [Python Essentials: Environment variables](migrations/pp3/i-think-therefore-i-blog-environment-variables.md)
+    * [Python Essentials : Auto-Deployment](migrations/pp3/i-think-therefore-i-blog-auto-deployment.md)
+    * [Python Essentials: Build & deployment](migrations/pp3/i-think-therefore-i-blog-build-and-deployment.md)
